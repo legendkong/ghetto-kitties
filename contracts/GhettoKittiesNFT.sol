@@ -70,7 +70,6 @@ contract GhettoKittiesNFT is ERC721, Ownable {
          totalSupply++;
          //function that exists within ERC721, msg.sender -> address receiving the NFT(person calling the function), latest token id
          _safeMint(msg.sender, newTokenId);
-
       }
    }
 }
