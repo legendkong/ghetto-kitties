@@ -82,7 +82,7 @@ For the styling, I decided to try out ChakraUI which is a simple, modular and ac
   <br>
   <br>
   <br>  
-  <img src="https://github.com/legendkong/ghetto-kitties/blob/master/readmeImages/step4.PNG" width="800"> <br>
+  <img src="https://github.com/legendkong/ghetto-kitties/blob/master/readmeImages/step4.PNG" width="300"> <br>
   <li> Step 4 : You will be able to see your transaction upon confirmation.
   <br>
   <br>
