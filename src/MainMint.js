@@ -22,8 +22,10 @@ const MainMint = ({ accounts, setAccounts}) => {
             signer
          );
          try {
-            const response = await contract.mint(BigNumber.from(mintAmount));
-            console.log('response', response);
+            const response = await contract.mint(BigNumber.from(mintAmount), {
+               value: ethers.utils.parseEther((0.02 * mintAmount).toString()),
+            });
+            console.log("response: ", response);
          } catch(err) {
             console.log("error: ", err)
          }
@@ -87,7 +89,7 @@ const MainMint = ({ accounts, setAccounts}) => {
                   onClick={handleIncrement}>+</Button>
                </Flex>
                <Button 
-                backgroundColor="#D6517D"
+                  backgroundColor="#D6517D"
                   borderRadius="5px"
                   boxShadow="0px 2px 2px 1px #0F0F0F"
                   color="white"
