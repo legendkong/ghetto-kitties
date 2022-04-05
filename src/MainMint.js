@@ -1,9 +1,10 @@
 import { useState } from "react";
 // Package that allows you to connect to blockchain easily; has alot of utility functions, alternative for web3.js, industry standard now
 import { ethers, BigNumber } from 'ethers';
-import { Box, Button, Flex, Input, Text, Image } from '@chakra-ui/react';
+import { Box, Button, Flex, Input, Text } from '@chakra-ui/react';
 import GhettoKittiesNFT from './GhettoKittiesNFT.json';
 import ImageSwapper from "./NFTimages";
+
 
 const GhettoKittiesNFTAddress = "0x887F0e6af249F03Ab8228Dc06Feed7c4e60a059a";
 
@@ -99,7 +100,8 @@ const MainMint = ({ accounts, setAccounts}) => {
                   fontFamily="inherit"
                   padding="15px"
                   marginTop="10px" 
-                  onClick={handleMint}>Mint Now</Button>
+                  onClick={handleMint}>Purchase Now</Button>
+                  {/* Mint Now */}
             </div>
          ) : (
             <Text
@@ -109,7 +111,8 @@ const MainMint = ({ accounts, setAccounts}) => {
             fontFamily="VT323"
             textShadow="0 3px #000000"
             color="#D6517D"
-            >You must be connected to mint!</Text>
+            >You must be connected to purchase!</Text>
+            // mint
          )}  
          </Box>
       </Flex>

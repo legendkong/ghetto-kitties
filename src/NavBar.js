@@ -55,7 +55,7 @@ const NavBar = ({ accounts, setAccounts }) => {
                   fontFamily="inherit"
                   padding="15px"
                   margin="0 15px" 
-                   onClick={connectAccount}>Connect</Button>
+                  onClick={connectAccount}>Connect</Button>
             )}
 
          </Flex>

@@ -21,9 +21,9 @@ export default function ImageSwapper() {
     }, [])
 
 
-   return (
-      <div>
-      <Image src={currentImage} boxSize="200px" margin="0 5px" />
-      </div>
-   )  
+return (
+    <div>
+    <Image src={currentImage} boxSize="200px" margin="0 5px" />
+    </div>
+    )  
 }
