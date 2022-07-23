@@ -29,7 +29,7 @@ Build tool: npm
 <li> Creation of webpage
 <li> Styling of components
 
-# Smart contract to enable minting of NFT
+# Smart contract to enable minting of NFT(s)
 <p align="center">
 <img src="https://github.com/legendkong/ghetto-kitties/blob/master/readmeImages/solidityFile.PNG"> <br>
   The smart contract is written in GhettoKittiesNFT.sol file located under the Contracts folder. <br>
