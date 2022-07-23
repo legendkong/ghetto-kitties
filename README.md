@@ -62,7 +62,7 @@ As for the blockchain node provider, I used [infura](https://infura.io/). After 
   
 # Creation of webpage
 I went with ReactJS libary due to it's flexibility and reusability of components. <br>
-For the styling, I decided to try out ChakraUI which is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.
+For the styling, I decided to try out ChakraUI which is a simple and modular component library that gives you the building blocks you need to build your React applications.
   
 
 # To use Ghetto-Kitties
